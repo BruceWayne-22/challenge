@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+    
+    <title>Recette de Lasagne</title>
+  </head>
+  <body class="bg-[#fff59d] h-full px-24 py-7">
+    <main class="flex flex-col gap-12">
+      <header class="flex justify-between">
+        <div class="flex flex-col justify-center items-center gap-7">
+          <h1 class="text-6xl font-bold text-[#aa2e25]">Recette de Lasagne</h1>
+          <p class="text-lg w-[40vw] text-center font-bold text-[#491410]">
+            Savourez nos lasagnes, des couches de pâte, sauce bolognaise,
+            béchamel et fromage gratiné. Un classique italien irrésistible !
+          </p>
+        </div>
+        <img
+          class="rounded-2xl w-2/5"
+          src="https://i.pinimg.com/736x/52/33/a9/5233a98dfd5c3d0d2cb38c0670544499.jpg"
+          alt="lasagne"
+        />
+      </header>
+
+      <section class="flex gap-2 ">
+        <div
+          class="flex flex-col rounded-2xl gap-4 items-center mx-auto p-4 bg-orange-300 hover:bg-[#DE9E36]"
+        >
+          <h2 class="text-[#aa2e25] font-bold text-xl">
+            Temps de préparation :
+          </h2>
+          <ul>
+            <li>Temps total : 1h30</li>
+            <li>Temps de préparation : 30 minutes</li>
+            <li>Temps de cuisson : 1 heure</li>
+          </ul>
+        </div>
+
+        <div
+          class="flex flex-col rounded-2xl gap-3 items-center mx-auto p-4 bg-orange-300 hover:bg-[#DE9E36]"
+        >
+          <h2 class="text-[#aa2e25] font-bold text-xl">Ingrédients :</h2>
+          <ul>
+            <li>500g de viande hachée</li>
+            <li>500g de pâte à lasagne</li>
+            <li>800ml de sauce tomate</li>
+            <li>500ml de béchamel</li>
+            <li>200g de fromage râpé</li>
+            <li>1 oignon</li>
+            <li>2 gousses d'ail</li>
+            <li>Sel et poivre</li>
+          </ul>
+        </div>
+
+        <div
+          class="flex flex-col rounded-2xl gap-3 items-center mx-auto p-4 bg-orange-300 hover:bg-[#DE9E36]"
+        >
+          <h2 class="text-[#aa2e25] font-bold text-xl">Instructions :</h2>
+          <ol>
+            <li>Préchauffez le four à 180°C.</li>
+            <li>Faites revenir l'oignon et l'ail dans une poêle.</li>
+            <li>Ajoutez la viande hachée et laissez cuire.</li>
+            <li>
+              Incorporez la sauce tomate et assaisonnez avec du sel et du
+              poivre.
+            </li>
+            <li>
+              Dans un plat, alternez les couches de pâte, de sauce et de
+              béchamel.
+            </li>
+            <li>Terminez par une couche de fromage râpé.</li>
+            <li>Enfournez pendant 1 heure.</li>
+            <li>Laissez reposer 10 minutes avant de servir.</li>
+          </ol>
+        </div>
+
+        <div
+          class="flex flex-col rounded-2xl gap-3 items-center p-4 mx-auto bg-orange-300 hover:bg-[#DE9E36]"
+        >
+          <h2 class="text-[#aa2e25] font-bold text-xl">Nutrition :</h2>
+          <div class="flex flex-col">
+            <span>Calories : 600kcal</span>
+            <span>Glucides : 45g</span>
+            <span>Protéines : 30g</span>
+            <span>Lipides : 25g</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
