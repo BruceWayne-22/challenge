@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>CSS Layout</title>
+  </head>
+  <body
+    class="bg-blue-100 flex flex-col justify-center items-center min-h-screen p-5 mx-auto lg:p-16"
+  >
+    <section
+      class="rounded-lg shadow-[5px_5px_0_0] shadow-gray-400 overflow-hidden lg:rounded-xl lg:shadow-[0_0_5px_5px] lg:shadow-gray-400 lg:grid lg:grid-cols-4 lg:w-3/4"
+    >
+      <section
+        class="bg-white flex flex-col items-center gap-7 py-6 lg:col-span-4 lg:items-start lg:px-7 lg:py-8 lg:gap-8"
+      >
+        <h1 class="text-[#2bb2ae] text-3xl font-bold lg:text-4xl">
+          Join our community
+        </h1>
+        <h3 class="text-[#bfdf34] font-bold lg:text-xl">
+          30-days, hassle free, money back guarantee
+        </h3>
+        <p class="text-[#b1b4be] text-center font-semibold">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
+          quae beatae at nihil asperiores mollitia modi accusamus, inventore sit
+          expedita repudiandae esse sapiente?
+        </p>
+      </section>
+
+      <section
+        class="bg-[#2bb2ae] flex flex-col items-center text-white gap-5 py-7 lg:col-span-2 lg:items-start lg:px-7"
+      >
+        <h2 class="text-2xl font-bold">Monthly subscriptions</h2>
+        <div class="flex items-center gap-3">
+          <span class="text-3xl font-semibold">$29.99</span>
+          <p>per month</p>
+        </div>
+        <p class="lg:">Full access for less than $1 a day</p>
+        <button
+          class="bg-[#bfdf34] w-full py-2 cursor-pointer lg:rounded-lg lg:py-3"
+        >
+          Sign Up
+        </button>
+      </section>
+      <section
+        class="bg-[#66c6c3] text-white flex flex-col items-center gap-3 py-5 lg:col-span-2 lg:items-start lg:px-7 lg:py-7"
+      >
+        <h2 class="text-2xl font-bold">Why us</h2>
+        <ul class="text-center font-semibold lg:text-left">
+          <li>Tutorials by industry experts</li>
+          <li>Peer & expert code reviews</li>
+          <li>Coding exercices</li>
+          <li>Access to our github repos</li>
+          <li>Community forums</li>
+          <li>Flashcard decks</li>
+          <li>New videos every week</li>
+        </ul>
+      </section>
+    </section>
+  </body>
+</html>
