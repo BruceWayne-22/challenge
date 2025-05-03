@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Convertion</title>
+  </head>
+  <body
+    class="bg-[#625efb] flex flex-col items-center justify-center h-screen gap-6"
+  >
+    <section class="bg-gray-400 px-5 py-3">
+      <h1 class="text-black text-2xl font-semibold">Currency Converter</h1>
+    </section>
+    <section
+      class="bg-gray-300 p-5 border-t border-t-4 border-orange-300 flex flex-col gap-5"
+    >
+      <h1 class="text-black text-2xl font-semibold">Ammount to Convert</h1>
+      <input type="text" class="bg-white p-2" />
+      <section class="grid grid-cols-2 gap-3">
+        <h3 class="text-center font-semibold">From</h3>
+        <h3 class="text-center font-semibold">To</h3>
+        <select name="" id="from" class="border bg-white">
+          <option value="USD">DZD</option>
+          <option value="DZD">USD</option>
+          <option value="CAD">CAD</option>
+          <option value="EUR">EUR</option>
+          <option value="LIV">LIV</option>
+        </select>
+        <select name="" id="to" class="border bg-white">
+          <option value="USD">EUR</option>
+          <option value="DZD">DZD</option>
+          <option value="CAD">CAD</option>
+          <option value="EUR">USD</option>
+          <option value="LIV">LIV</option>
+        </select>
+        <button
+          id="convert"
+          class="bg-[#7e8df0] text-white px-3 cursor-pointer"
+        >
+          Convert
+        </button>
+        <button id="reset" class="bg-[#7e8df0] text-white px-3 cursor-pointer">
+          Reset
+        </button>
+      </section>
+    </section>
+
+    <script src="domchallenge.js"></script>
+  </body>
+</html>
